@@ -88,3 +88,7 @@ body {
   background-color: #d9534f;
   color: white;
 }
+
+.hidden {
+  display: none;
+}

@@ -9,131 +9,57 @@
 <body>
 <form id="integrityForm">
   <h2>AI Academic Integrity Self-Assessment</h2>
+  <div id="question1Container">
   <!-- Question 1 -->
-  <label for="question1">Did you use AI to help brainstorm ideas for your assignment?</label><br>
+  <label for="question1">Did you use AI tools for any part of your assignment?</label><br>
   <select id="question1">
     <option value="0">No, not at all</option>
     <option value="1">Yes, but only a small part</option>
     <option value="2">Yes, a significant portion</option>
     <option value="3">Yes, almost all of it</option>
   </select><br>
+  </div>
+  <div id="question2Container" class="hidden">
+    <!-- Question 2 -->
+    <label for="question2">Did you use AI for grammar checking, spell checking, or translation in your assignment?</label><br>
+    <select id="question2">
+      <option value="0">No, not at all</option>
+      <option value="1">Yes, but only a small part</option>
+      <option value="2">Yes, a significant portion</option>
+      <option value="3">Yes, almost all of it</option>
+    </select><br>
+  </div>
+  <div id="question3Container" class="hidden">
+    <!-- Question 2 -->
+    <label for="question3">Did you use AI to help brainstorm or generate ideas for your assignment?</label><br>
+    <select id="question3">
+      <option value="0">No, not at all</option>
+      <option value="2">Yes, but only a small part</option>
+      <option value="3">Yes, a significant portion</option>
+      <option value="4">Yes, almost all of it</option>
+    </select><br>
+  </div>
+  <div id="question4Container" class="hidden">
+    <!-- Question 2 -->
+    <label for="question4">How much did you rely on AI for rewriting or structuring parts of your assignment?</label><br>
+    <select id="question4">
+      <option value="0">No, not at all</option>
+      <option value="2">Yes, but only a small part</option>
+      <option value="3">Yes, a significant portion</option>
+      <option value="4">Yes, almost all of it</option>
+    </select><br>
+  </div>
+  <div id="question5Container" class="hidden">
+    <!-- Question 2 -->
+    <label for="question5">To what extent did the entire piece of work originate from AI?</label><br>
+    <select id="question5">
+      <option value="0">No, not at all</option>
+      <option value="3">Yes, but only a small part</option>
+      <option value="4">Yes, a significant portion</option>
+      <option value="5">Yes, almost all of it</option>
+    </select><br>
+  </div>
   
-  <!-- Question 2 -->
-  <label for="question2">Did you generate the ideas, content, and structure of your work independently?</label><br>
-  <select id="question2">
-    <option value="0">Yes, all of them</option>
-    <option value="1">Yes, a significant portion</option>
-    <option value="2">Yes, but only a small part</option>
-    <option value="3">No, not at all</option>
-  </select><br>
-
-  <!-- Question 3 -->
-  <label for="question3">Did you use AI tools to help brainstorm or expand upon ideas for your assignment?</label><br>
-  <select id="question3">
-    <option value="0">No, not at all</option>
-    <option value="1">Yes, but only a small part</option>
-    <option value="2">Yes, a significant portion</option>
-    <option value="3">Yes, almost all of it</option>
-  </select><br>
-
-  <!-- Question 4 -->
-  <label for="question4">Have you used AI to assist you with searching for references or translating content that you then critically engaged with and cited correctly?</label><br>
-  <select id="question4">
-    <option value="0">No, not at all</option>
-    <option value="1">Yes, but only a small part</option>
-    <option value="2">Yes, a significant portion</option>
-    <option value="3">Yes, almost all of it</option>
-  </select><br>
-
-  <!-- Question 5 -->
-  <label for="question5">Have you used AI to help draft any part of your assignment?</label><br>
-  <select id="question5">
-    <option value="0">No, not at all</option>
-    <option value="1">Yes, but only a small part</option>
-    <option value="2">Yes, a significant portion</option>
-    <option value="3">Yes, almost all of it</option>
-  </select><br>
-
-  <!-- Question 6 -->
-  <label for="question6">Did AI tools provide a structure that you built upon for your final submission??</label><br>
-  <select id="question6">
-    <option value="0">No, not at all</option>
-    <option value="1">Yes, but only a small part</option>
-    <option value="2">Yes, a significant portion</option>
-    <option value="3">Yes, almost all of it</option>
-  </select><br>
-
-  <!-- Question 7 -->
-  <label for="question7">Was AI used to edit grammar or sentence structure in your work?</label><br>
-  <select id="question7">
-    <option value="0">No, not at all</option>
-    <option value="1">Yes, but only a small part</option>
-    <option value="2">Yes, a significant portion</option>
-    <option value="3">Yes, almost all of it</option>
-  </select><br>
-
-  <!-- Question 8 -->
-  <label for="question8">To what extent did you rely on AI for drafting your assignment?</label><br>
-  <select id="question8">
-    <option value="0">No, not at all</option>
-    <option value="1">Yes, but only a small part</option>
-    <option value="2">Yes, a significant portion</option>
-    <option value="3">Yes, almost all of it</option>
-  </select><br>
-
-  <!-- Question 8 -->
-  <label for="question8">To what extent did you rely on AI for drafting your assignment?</label><br>
-  <select id="question8">
-    <option value="0">No, not at all</option>
-    <option value="1">Yes, but only a small part</option>
-    <option value="2">Yes, a significant portion</option>
-    <option value="3">Yes, almost all of it</option>
-  </select><br>
-
-  <!-- Question 9 -->
-  <label for="question9">How much of the structure provided by AI did you use in your final work?</label><br>
-  <select id="question9">
-    <option value="0">No, not at all</option>
-    <option value="1">Yes, but only a small part</option>
-    <option value="2">Yes, a significant portion</option>
-    <option value="3">Yes, almost all of it</option>
-  </select><br>
-
-  <!-- Question 10 -->
-  <label for="question10">Have you made only minor changes to content generated by AI?</label><br>
-  <select id="question10">
-    <option value="0">No, not at all</option>
-    <option value="1">Yes, but only a small part</option>
-    <option value="2">Yes, a significant portion</option>
-    <option value="3">Yes, almost all of it</option>
-  </select><br>
-
-  <!-- Question 11 -->
-  <label for="question11">Could significant portions of your assignment be directly traced back to an AI-generated draft?</label><br>
-  <select id="question11">
-    <option value="0">No, not at all</option>
-    <option value="1">Yes, but only a small part</option>
-    <option value="2">Yes, a significant portion</option>
-    <option value="3">Yes, almost all of it</option>
-  </select><br>
-
-  <!-- Question 12 -->
-  <label for="question12">Did you use the exact output from an AI without any modifications?</label><br>
-  <select id="question12">
-    <option value="0">No, not at all</option>
-    <option value="1">Yes, but only a small part</option>
-    <option value="2">Yes, a significant portion</option>
-    <option value="3">Yes, almost all of it</option>
-  </select><br>
-
-  <!-- Question 13 -->
-  <label for="question13">Is there any part of your assignment that has been copy-pasted from AI-generated content without proper attribution?</label><br>
-  <select id="question13">
-    <option value="0">No, not at all</option>
-    <option value="1">Yes, but only a small part</option>
-    <option value="2">Yes, a significant portion</option>
-    <option value="3">Yes, almost all of it</option>
-  </select><br>
   
 
   <button type="button" onclick="calculateResult()">Submit</button>
